@@ -1,0 +1,67 @@
+/* Table sizing */
+.comparisonTable {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
+}
+
+.comparisonTable th {
+	width: 22.5%;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.comparisonTable td {
+	padding: 10px;
+	border: 1px solid black;
+}
+
+/* Featured Products */
+.card {
+	float: left;
+	width: 23.5%;
+	height: 400px;
+	padding: 15px;
+	margin-left: 15px;
+	background-color: #dbdbdb;
+	border-radius: 5px;
+}
+
+.listing {
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 5px;
+	transition: transform .2s;
+}
+
+.listing:hover {
+	transform: scale(1.15);
+}
+
+.card a {
+	text-decoration: none;
+	color: black;
+}
+
+.card a:hover {
+	text-decoration: underline;
+}
+
+#comp1 {
+	background-image: url("/Images/skytech_prism.png")
+}
+
+#comp2 {
+	background-image: url("/Images/vengeance_a7200.png")
+}
+
+#comp3 {
+	background-image: url("/Images/abs_master.png")
+}
+
+#comp4 {
+	background-image: url("/Images/dell_optiplex.png")
+}

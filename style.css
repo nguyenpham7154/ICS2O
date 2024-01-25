@@ -1,0 +1,117 @@
+* {box-sizing: border-box;}
+
+/* Body */
+body {
+  font-family: Futura, Helvetica;
+  background: #f1f1f1;
+  margin: 0px;
+}
+
+/* Header */
+.header {
+  padding: 5px;
+  text-align: left;
+  background-color: #1d2449;
+  color: #ffc65c;
+  padding-left: 2%;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffc65c;
+}
+
+/* Navbar */
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0e1743;
+  padding: 0px 2% 0px 2%;
+}
+
+.navbar li {float: left;}
+
+.navbar li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover, .dropdown:hover .dropbtn {background-color: #2424ff ;}
+.navbar li.dropdown {display: inline-block;}
+
+.navbar .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.navbar .dropdown-content a{
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navbar .dropdown-content a:hover {background-color: #f5f5f5;}
+.navbar .dropdown:hover .dropdown-content {display: block;}
+
+/* Section */
+.section {
+  background-color: white;
+  padding: 25px 6% 25px 6%;
+  margin-top: 0px;
+} 
+
+.section:nth-child(even) {background: #f5f5f5;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 50px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.footer table {width:75%; margin:auto;}
+.footer th, .footer td {width: 25%; padding: 5px; text-align: left;}
+
+/* Social media icon links */
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {opacity: 0.7;}
+.fa-facebook, .fa-twitter, .fa-twitter, .fa-linkedin, .fa-instagram, .fa-reddit {color: white;}
+
+/* Responsive layout - make the navigation links stack on top */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

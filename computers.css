@@ -1,0 +1,57 @@
+ .image {
+  width: 35%; 
+  height: 400px; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 1px solid black;
+  float: left;
+  margin-right: 2%;
+}
+
+.container {
+  width: 40%;
+  margin-right: 2%;
+  float: left;
+}
+
+.pricebar {
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #dbdbdb;
+  float: left;
+  height: 400px;
+}
+
+.spectab {width: 100%;}
+
+.extrainfo {
+  width:75%;
+  float: left;
+}
+
+/* Button Properties */
+.buybutton{ 
+  margin: auto;
+  display: block; 
+  border: 1px solid; 
+  border-color: #aaa #000 #000 #aaa;  
+  width: 100%; 
+  padding: 5px;
+  margin-top: 5px;
+  background: #ffc65c; 
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+} 
+  
+a.buybutton:active { 
+	border-color: #aaa;
+}
+
+#comp1 {background-image: url("/Images/skytech_prism.png")}
+#comp2 {background-image: url("/Images/vengeance_a7200.png")}
+#comp3{background-image: url("/Images/abs_master.png")}
+#comp4 {background-image: url("/Images/dell_optiplex.png")}
