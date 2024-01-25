@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body> 
+<div id="tab"> 
+  <div id="menu">
+  <h2 id="title">Minesweeper</h2> &nbsp <p id="endDisplay"></p> 
+  <br>
+  <button onclick="createGraph()">Reset</button>
+  <select onchange="changeDifficulty()" id="changeDifficulty">
+    <option value="1">Easy</option>
+    <option value="2">Medium</option>
+    <option value="3">Hard</option>
+    <option value="4">Custom</option>
+  </select>
+  <input type="text" id="flagCountDisplay" readonly/> 🚩
+  <input type="text" id="watchDisplay" readonly/> 🕒
+  <br><br>
+  </div>
+  <div id="board"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+New Changes: no more end game popup, 
+Upcoming Changes: custom mode
+-->

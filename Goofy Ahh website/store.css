@@ -1,0 +1,46 @@
+/* Featured Products */
+.card {
+  float: left;
+  width: 23.5%;
+  height: 400px;
+  padding: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  background-color: #dbdbdb;
+  border-radius: 5px;
+}
+
+.listing {
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  transition: transform .2s;
+}
+
+.listing:hover {transform: scale(1.15);}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+#item1 {background-image: url("/Images/ibuypower.png")}
+#item2 {background-image: url("/Images/ryzen5700x.png")}
+#item3 {background-image: url("/Images/gigabyte32in.png")}
+#item4 {background-image: url("/Images/HPpavilion.png")}
+
+#item5 {background-image: url("/Images/msi4090.png")}
+#item6 {background-image: url("/Images/msiAegis.png")}
+#item7 {background-image: url("/Images/vengeanceRam.png")}
+#item8 {background-image: url("/Images/rogstrixB650E-F.png")}
+
+#item9 {background-image: url("/Images/WDsn770.png")}
+#item10 {background-image: url("/Images/galaxybookpro.png")}
+#item11 {background-image: url("/Images/noctua120.png")}
+#item12 {background-image: url("/Images/lenovoThinkpad16.png")}

@@ -1,0 +1,32 @@
+#tab {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: #8A8A8A;
+  border: solid #C0C0C0 5px;
+  padding:20px;
+  width: fit-content;
+}
+
+#changeDifficulty {height:21px;}
+#watchDisplay {width: 55px;}
+#flagCountDisplay {width: 20px;}
+#endDisplay, #title {display: inline-block;}
+
+#board button {
+  width: 35px;
+  height: 35px;
+  border: outset white 3px;  
+  color: rgba(0, 0, 0, 0); /* makes state transparent */
+  background-color: #e8e8e8;
+  position: relative;
+  
+  user-select: none; /* disables highlighting */
+  font-style: normal;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: inherit;
+  line-height: inherit;
+  text-align: center;
+}
+
+#board button:hover { filter: brightness(110%); }
