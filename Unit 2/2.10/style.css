@@ -1,0 +1,8 @@
+body {
+
+}
+
+#mydiv {
+  background: linear-gradient(red, purple, blue);
+  height: 400px;
+}
