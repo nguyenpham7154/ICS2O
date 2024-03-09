@@ -50,18 +50,14 @@
 	text-decoration: underline;
 }
 
-#comp1 {
-	background-image: url("/Images/skytech_prism.png")
-}
+#banner {
+	background-image: url("Images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+  }
 
-#comp2 {
-	background-image: url("/Images/vengeance_a7200.png")
-}
-
-#comp3 {
-	background-image: url("/Images/abs_master.png")
-}
-
-#comp4 {
-	background-image: url("/Images/dell_optiplex.png")
-}
+#comp1 {background-image: url("Images/skytech_prism.png")}
+#comp2 {background-image: url("Images/vengeance_a7200.png")}
+#comp3 {background-image: url("Images/abs_master.png")}
+#comp4 {background-image: url("Images/dell_optiplex.png")}

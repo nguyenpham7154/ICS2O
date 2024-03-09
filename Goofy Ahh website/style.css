@@ -1,6 +1,7 @@
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
-/* Body */
 body {
   font-family: Futura, Helvetica;
   background: #f1f1f1;
@@ -21,6 +22,12 @@ body {
   color: #ffc65c;
 }
 
+.logo {
+  width: 75px;
+  float: left;
+  margin: 10px;
+}
+
 /* Navbar */
 .navbar {
   position: -webkit-sticky;
@@ -37,7 +44,9 @@ body {
   padding: 0px 2% 0px 2%;
 }
 
-.navbar li {float: left;}
+.navbar li {
+  float: left;
+}
 
 .navbar li a, .dropbtn {
   display: inline-block;
@@ -47,8 +56,13 @@ body {
   text-decoration: none;
 }
 
-.navbar li a:hover, .dropdown:hover .dropbtn {background-color: #2424ff ;}
-.navbar li.dropdown {display: inline-block;}
+.navbar li a:hover, .dropdown:hover .dropbtn {
+  background-color: #2424ff ;
+}
+
+.navbar li.dropdown {
+  display: inline-block;
+}
 
 .navbar .dropdown-content {
   display: none;
@@ -67,8 +81,13 @@ body {
   text-align: left;
 }
 
-.navbar .dropdown-content a:hover {background-color: #f5f5f5;}
-.navbar .dropdown:hover .dropdown-content {display: block;}
+.navbar .dropdown-content a:hover {
+  background-color: #f5f5f5;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Section */
 .section {
@@ -77,7 +96,9 @@ body {
   margin-top: 0px;
 } 
 
-.section:nth-child(even) {background: #f5f5f5;}
+.section:nth-child(even) {
+  background: #f5f5f5;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -87,14 +108,31 @@ body {
 }
 
 /* Footer */
-.footer {
+.footer1, .footer2 {
   padding: 50px;
   text-align: center;
   margin-top: 0px;
 }
 
-.footer table {width:75%; margin:auto;}
-.footer th, .footer td {width: 25%; padding: 5px; text-align: left;}
+.footer1 {
+  background:#1d2449; 
+  color:#ddd;
+}
+
+.footer2 {
+  background: #ddd;
+}
+
+.footer1 table {
+  width:75%;
+  margin:auto;
+}
+
+.footer1 th, .footer1 td {
+  width: 25%;
+  padding: 5px;
+  text-align: left;
+}
 
 /* Social media icon links */
 .fa {
@@ -105,8 +143,13 @@ body {
   margin: 5px 2px;
 }
 
-.fa:hover {opacity: 0.7;}
-.fa-facebook, .fa-twitter, .fa-twitter, .fa-linkedin, .fa-instagram, .fa-reddit {color: white;}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook, .fa-twitter, .fa-twitter, .fa-linkedin, .fa-instagram, .fa-reddit {
+  color: white;
+}
 
 /* Responsive layout - make the navigation links stack on top */
 @media screen and (max-width: 400px) {

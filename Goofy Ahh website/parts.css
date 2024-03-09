@@ -16,17 +16,17 @@
 }
 
 /* Images */
-#cpu {background-image: url("/Images/cpu.jpeg");}
-#gpu {background-image: url("/Images/gpu.png");}
-#mobo {background-image: url("/Images/motherboard.jpg");}
-#ram {background-image: url("/Images/ram.png");}
+#cpu {background-image: url("Images/cpu.jpeg");}
+#gpu {background-image: url("Images/gpu.png");}
+#mobo {background-image: url("Images/motherboard.jpg");}
+#ram {background-image: url("Images/ram.png");}
 
-#storage {background-image: url("/Images/ssd.png");}
-#psu {background-image: url("/Images/psu.png");}
-#display {background-image: url("/Images/monitor.png");}
-#case {background-image: url("/Images/case.png");}
+#storage {background-image: url("Images/ssd.png");}
+#psu {background-image: url("Images/psu.png");}
+#display {background-image: url("Images/monitor.png");}
+#case {background-image: url("Images/case.png");}
 
 #cooling {background-image: url("/Images/cooler.png");}
-#peripherals {background-image: url("/Images/peripherals.png");}
-#expansion {background-image: url("/Images/network_adapter.png");}
-#os {background-image: url("/Images/os.png");}
+#peripherals {background-image: url("Images/peripherals.png");}
+#expansion {background-image: url("Images/network_adapter.png");}
+#os {background-image: url("Images/os.png");}
