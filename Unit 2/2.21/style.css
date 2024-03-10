@@ -1,0 +1,21 @@
+body{
+  background-color: yellow
+}
+.text1{
+  width: 135px;
+}
+.text2{
+  width: 174px;
+}
+.Country{
+  width: 182px;
+}
+.othertype{
+  width: 70px;
+}
+.item{
+  width: 142px
+}
+.radio, .checkbox, .textarea{
+  vertical-align: top;
+}

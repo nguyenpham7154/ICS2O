@@ -1,0 +1,7 @@
+ol li:nth-child(2) {background: green;}
+ul li {color: red !important;}
+tr:nth-child(odd) {background: yellow;}
+
+/* READ ONLY BLOCK */
+body{color: blue;}
+ul li, ol li{color: green;}

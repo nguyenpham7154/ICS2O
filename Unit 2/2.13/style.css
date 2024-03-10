@@ -1,0 +1,12 @@
+body{
+	background: #BDBDBD;
+}
+.rounded{
+  margin: auto;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  background-image: url("saul.png");
+  background-size: 200px;
+	border-radius: 100%;
+}

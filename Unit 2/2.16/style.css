@@ -1,0 +1,9 @@
+#my-first-div{font-size: 15px;}
+#the-second-one{font-size: 25px;}
+h2 {font-size: 0.8em;}
+h3 {font-size: 0.8em;}
+
+/* ignore below this part */
+div {width: 45%; border: 1px solid; padding: 5px;}
+#the-second-one{float: right;}
+#my-first-div{float: left;} 

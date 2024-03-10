@@ -1,0 +1,13 @@
+.orange-btn{
+	padding: 10px;
+  border-radius: 4px;
+  background-color: orange;
+  text-decoration: none;
+  color: white;
+  
+}
+.orange-btn:hover{
+  background-color: darkorange
+}
+/* ignore below this */
+body{padding: 50px 50px;}
