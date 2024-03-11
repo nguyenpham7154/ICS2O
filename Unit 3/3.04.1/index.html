@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2> Change Calculator </h2>
+  <script>
+    var cents = prompt("Enter value: ");
+    var quarters = parseInt(cents / 25);
+    cents = cents % 25;
+    var dimes = parseInt(cents / 10);
+    cents = cents % 10;
+    var nickels = parseInt(cents / 5);
+    cents = cents % 5;
+    var pennies = parseInt(cents / 1);
+
+    document.write(quarters + " quarters");
+    document.write("<br>" + dimes + " dimes");
+    document.write("<br>" + nickels + " nickels");
+    document.write("<br>" + pennies + " pennies");
+  </script>
+</body>
+</html>
