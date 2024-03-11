@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+<table>
+<!-- 1. Counter -->
+<tr>
+  <td style="width: 200px">
+    <h4>1. For Counter</h4>
+    <form>
+      <input type="text" id="f1input1" placeholder="enter range min"><br>
+      <input type="text" id="f1input2" placeholder="enter range max"><br><br>
+      <button type="button" onclick="forCounter()">Count Range</button><br>
+    </form>
+  </td>
+  <td><p id="f1output"></p></td>
+</tr>
+
+<!-- 2. Sum -->
+<tr>
+  <td>
+    <h4>2. For Sum</h4>
+    <form>
+      <input type="text" id="f2input1" placeholder="enter range min"><br>
+      <input type="text" id="f2input2" placeholder="enter range max"><br><br>
+      <button type="button" onclick="forSum()">Calculate Range Sum</button><br>
+    </form>
+  </td>
+  <td><p id="f2output"></p></td>
+</tr>
+
+<!-- 3. For Words -->
+<tr>
+  <td>
+    <h4>3. For Num Words</h4>
+    <form>
+      <input type="text" id="f3input" placeholder="enter word"><br><br>
+      <button type="button" onclick="forNumWords()">Count Words</button><br>
+    </form>
+  </td>
+  <td><p id="f3output"></p></td>
+</tr>
+  
+</table>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body>
+<table>
+
+<!-- 1. Examples-->
+<tr>
+  <td style="width: 200px"><h4>1. Examples</h4></td>
+  <td><p id="examplesOutput"></p></td>
+</tr>
+
+<!-- 2. Word Change -->
+<tr>
+  <td>
+    <h4>2. Word Change</h4>
+    <form>
+      <input type="text" id="f2input" placeholder="enter word"><br><br>
+      <button type="button" onclick="wordChange()">Change Word</button><br>
+    </form>
+  </td>
+  <td><p id="f2output"></p></td>
+</tr>
+
+<!-- 3. String Info -->
+<tr>
+  <td>
+    <h4>3. String Info</h4>
+    <form>
+      <input type="text" id="f3input1" placeholder="enter word"><br>
+      <input type="text" id="f3input2" placeholder="enter substring"><br><br>
+      <button type="button" onclick="stringInfo()">Get Info</button><br>
+    </form>
+  </td>
+  <td><p id="f3output"></p></td>
+</tr>
+
+<!-- 4. Letter Replace -->
+<tr>
+  <td>
+    <h4>4. Letter Replace</h4>
+    <form>
+      <input type="text" id="f4input1" placeholder="enter word"><br>
+      <input type="text" id="f4input2" placeholder="enter letter"><br><br>
+      <button type="button" onclick="letterReplace()">Replace Letter</button><br>
+    </form>
+  </td>
+  <td><p id="f4output"></p></td>
+</tr>
+
+<!-- 5.Sort Alphabetical -->
+<tr>
+  <td>
+    <h4>5. Sort Alphabetical</h4>
+    <form>
+      <input type="text" id="f5input1" placeholder="enter word 1"><br>
+      <input type="text" id="f5input2" placeholder="enter word 2"><br>
+      <input type="text" id="f5input3" placeholder="enter word 3"><br><br>
+      <button type="button" onclick="alphabetical()">Sort Strings</button><br>
+    </form>
+  </td>
+  <td><p id="f5output"></p></td>
+</tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

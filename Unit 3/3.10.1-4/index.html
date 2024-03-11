@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body>
+<table>
+<!-- 1. Password Checker-->
+<tr>
+  <td style="width: 200px">
+    <h4>1. Password Checker</h4>
+    <form>
+      <button type="button" onclick="passwordCheck()">Access Image</button><br>
+    </form>
+  </td>
+  <td id="f1output"></td>
+</tr>
+
+<!-- 2. Letters -->
+<tr>
+  <td>
+    <h4>2. Letters</h4>
+    <form>
+      <input type="text" id="f2input" placeholder="enter word"><br><br>
+      <button type="button" onclick="countLetters()">Count Letters</button><br>
+    </form>
+  </td>
+  <td><p id="f2output"></p></td>
+</tr>
+
+<!-- 3. Hacker Speak -->
+<tr>
+  <td>
+    <h4>3. Hacker Speak</h4>
+    <form>
+      <input type="text" id="f3input" placeholder="enter sentence"><br><br>
+      <button type="button" onclick="h4ck3rsp34k()">Convert to h4ck3r sp34k</button><br>
+    </form>
+  </td>
+  <td><p id="f3output"></p></td>
+</tr>
+
+<!-- 4. Pig Latin -->
+<tr>
+  <td>
+    <h4>4. Pig Latin</h4>
+    <form>
+      <input type="text" id="f4input" placeholder="enter sentence"><br><br>
+      <button type="button" onclick="translatePigLatin()">Translate to Pig Latin</button><br>
+    </form>
+  </td>
+  <td><p id="f4output"></p></td>
+</tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

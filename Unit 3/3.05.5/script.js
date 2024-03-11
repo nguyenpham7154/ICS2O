@@ -1,4 +1,3 @@
-
 var score = 0
 
 function game () {
