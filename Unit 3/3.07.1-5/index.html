@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body>
+<table>
+<!-- 1. Area of Circle -->
+<tr>
+  <td style="width: 200px">
+    <h4>1 Area of Circle</h4>
+    <input type="text" id="f1input" placeholder="enter circle radius"><br><br>
+    <button type="button" onclick="circleArea()">Calculate Area</button><br>
+  </td>
+  <td id="f1output"></td>
+</tr>
+
+<!-- 2. Random Word -->
+<tr>
+  <td>
+    <h4>2 Random Word</h4>
+    <button type="button" onclick="randomword()">Generate Word</button><br>
+  </td>
+  <td><p id="f2output"></p></td>
+</tr>
+
+<!-- 3. Math Question -->
+<tr>
+  <td>
+    <h4>3 Math Question</h4>
+    <button type="button" onclick="mathQuestion()">Generate question</button><br>
+  </td>
+  <td>
+    <p id="f3output"><br></p>
+    <input type="text" id="f3input" placeholder="answer">
+    <button type="button" onclick="checkAnswer()">Check Answer</button><br>
+  </td>
+</tr>
+
+<!-- 4. Calculations -->
+<tr>
+  <td>
+    <h4>4.1 Perimeter of Rectangle</h4>
+    <input type="text" id="f4input1" placeholder="length"><br><br>
+    <input type="text" id="f4input2" placeholder="width"><br><br>
+    <button type="button" onclick="recPerimeter()">Calculate Perimeter</button><br>
+  </td>
+  <td><p id="f4output1"></p></td>
+</tr>
+<tr>
+  <td>
+    <h4>4.2 Circumference of Circle</h4>
+    <input type="text" id="radius" placeholder="radius"><br><br>
+    <button type="button" onclick="circumference()">Calculate Perimeter</button><br>
+  </td>
+  <td><p id="f4output2"></p></td>
+</tr>
+<tr>
+  <td>
+    <h4>4.3 Distance between points</h4>
+    <input type="text" id="x1" placeholder="x1"><br>
+    <input type="text" id="y1" placeholder="y1"><br><br>
+    <input type="text" id="x2" placeholder="x2"><br>
+    <input type="text" id="y2" placeholder="y2"><br><br>
+    <button type="button" onclick="distance()">Calculate Distance</button>
+  </td>
+  <td><p id="f4output3"></p></td>
+</tr>
+
+<!-- 5. Form elements -->
+<tr>
+  <td>
+    <h4>5. Form elements</h4>
+  </td>
+  <td>
+    
+  </td>
+</tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
